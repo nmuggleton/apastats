@@ -1,13 +1,13 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.28)  4 FEB 2018 12:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.7)  6 FEB 2018 12:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **apastatsformat.dtx
 (./apastatsformat.dtx
-LaTeX2e <2016/03/31>
-Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/docstrip.tex
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/docstrip.tex
 \blockLevel=\count79
 \emptyLines=\count80
 \processedLines=\count81
@@ -41,7 +41,7 @@ Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 \@maxoutfiles=\count107
 
 Utility: `docstrip' 2.5e <2014/09/29>
-English documentation    <2014/09/29>
+English documentation    <2017/03/13>
 
 **********************************************************
 * This program converts documented macro-files into fast *
@@ -59,10 +59,10 @@ Generating file(s) ./apastatsformat.sty
 
 
 Processing file apastatsformat.dtx (package) -> apastatsformat.sty
-Lines  processed: 160
-Comments removed: 39
-Comments  passed: 0
-Codelines passed: 106
+Lines  processed: 188
+Comments removed: 61
+Comments  passed: 3
+Codelines passed: 109
 
 
 Generating file(s) ./apastatsformat.ins 
@@ -70,10 +70,10 @@ Generating file(s) ./apastatsformat.ins
 
 
 Processing file apastatsformat.dtx (install) -> apastatsformat.ins
-Lines  processed: 160
-Comments removed: 39
-Comments  passed: 0
-Codelines passed: 106
+Lines  processed: 188
+Comments removed: 61
+Comments  passed: 3
+Codelines passed: 109
 
 
 Generating file(s) ./README.txt 
@@ -81,21 +81,21 @@ Generating file(s) ./README.txt
 
 
 Processing file apastatsformat.dtx (readme) -> README.txt
-Lines  processed: 160
-Comments removed: 39
-Comments  passed: 0
-Codelines passed: 106
+Lines  processed: 188
+Comments removed: 61
+Comments  passed: 3
+Codelines passed: 109
 
 
 LaTeX Warning: You have requested package `',
                but the package provides `apastatsformat'.
 
 Package: apastatsformat 2018/02/04 Format stats according to APA 6 guidelines
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ltxdoc.cls
-Document Class: ltxdoc 2015/03/26 v2.0w Standard LaTeX documentation class
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/article.cls
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ltxdoc.cls
+Document Class: ltxdoc 2017/03/13 v2.0v Standard LaTeX documentation class
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size10.clo
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count108
@@ -109,8 +109,7 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/doc.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/base/doc.sty
 Package: doc 2016/02/15 v2.1g Standard LaTeX documentation package (FMi)
 \c@StandardModuleDepth=\count116
 \guard@level=\count117
@@ -119,9 +118,8 @@ Package: doc 2016/02/15 v2.1g Standard LaTeX documentation package (FMi)
 \macro@cnt=\count118
 \MacroTopsep=\skip44
 \index@excludelist=\toks14
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
 \c@tracingmulticols=\count119
 \mult@box=\box26
 \multicol@leftmargin=\dimen104
@@ -177,15 +175,12 @@ Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 \bslash@cnt=\count131
 \wrong@table=\toks15
 \c@CodelineNo=\count132
-))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-))
-(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/lmodern.sty
+)) (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/lmodern.sty
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -219,28 +214,18 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-)
-(./apastatsformat.sty
-
-LaTeX Warning: You have requested package `apastatsformat',
-               but the package provides `apastatsformat'.
-
+) (/Users/naomimuggleton/Library/Mobile Documents/com~apple~CloudDocs/GitHub/apastats/.texpadtmp/apastatsformat.sty
 Package: apastatsformat 2018/02/04 Format stats according to APA 6 guidelines
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/hypdoc.sty
-Package: hypdoc 2016/05/16 v1.12 Hyper extensions for doc.sty (HO)
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/atveryend.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/hypdoc.sty
+Package: hypdoc 2016/10/02 v1.13 Hyper extensions for doc.sty (HO)
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/atveryend.sty
 Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
-
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
@@ -250,7 +235,7 @@ Package ifluatex Info: LuaTeX not detected.
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -258,15 +243,13 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
-)
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
-)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
 Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
 Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
 )
@@ -275,66 +258,59 @@ Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
 Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
 Package: xcolor-patch 2016/05/16 xcolor patch
 Package hobsub Info: Skipping package `atveryend' (already loaded).
-Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
-)
-(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen115
 \Hy@linkcounter=\count133
 \Hy@pagecounter=\count134
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count135
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `hyperindex' set `false' on input line 4322.
-Package hyperref Info: Option `pdfusetitle' set `true' on input line 4322.
-Package hyperref Info: Option `colorlinks' set `true' on input line 4322.
-Package hyperref Info: Option `pdfpagelabels' set `true' on input line 4322.
-Package hyperref Info: Hyper figures OFF on input line 4446.
-Package hyperref Info: Link nesting OFF on input line 4451.
-Package hyperref Info: Hyper index OFF on input line 4456.
-Package hyperref Info: Plain pages OFF on input line 4461.
-Package hyperref Info: Backreferencing OFF on input line 4466.
+Package hyperref Info: Option `hyperindex' set `false' on input line 4374.
+Package hyperref Info: Option `pdfusetitle' set `true' on input line 4374.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4374.
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 4374.
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index OFF on input line 4508.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4691.
+Package hyperref Info: Bookmarks ON on input line 4751.
 \c@Hy@tempcnt=\count136
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5044.
+LaTeX Info: Redefining \url on input line 5104.
 \XeTeXLinkMargin=\dimen116
 \Fld@menulength=\count137
 \Field@Width=\dimen117
 \Fld@charsize=\dimen118
-Package hyperref Info: Hyper figures OFF on input line 6298.
-Package hyperref Info: Link nesting OFF on input line 6303.
-Package hyperref Info: Hyper index OFF on input line 6308.
-Package hyperref Info: backreferencing OFF on input line 6313.
-Package hyperref Info: Link coloring ON on input line 6316.
-Package hyperref Info: Link coloring with OCG OFF on input line 6323.
-Package hyperref Info: PDF/A mode OFF on input line 6328.
-LaTeX Info: Redefining \ref on input line 6368.
-LaTeX Info: Redefining \pageref on input line 6372.
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index OFF on input line 6368.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring ON on input line 6376.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
 \Hy@abspage=\count138
 \c@Item=\count139
 \c@Hfootnote=\count140
@@ -342,23 +318,20 @@ LaTeX Info: Redefining \pageref on input line 6372.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
+(/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
 \Fld@listcount=\count141
 \c@bookmark@seq@number=\count142
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
 )
 \Hy@SectionHShift=\skip47
 )
 Package hyperref Info: Option `plainpages' set `false' on input line 60.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 60.
 Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 60.
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/thumbpdf/thumbpdf.sty
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/thumbpdf/thumbpdf.sty
 Package: thumbpdf 2014/07/15 v3.16 Inclusion of thumbnails (HO)
 
 
@@ -381,42 +354,39 @@ Writing index file apastatsformat.idx
 \openout4 = `apastatsformat.glo'.
 
 Writing glossary file apastatsformat.glo 
-(./apastatsformat.aux
+(/Users/naomimuggleton/Library/Mobile Documents/com~apple~CloudDocs/GitHub/apastats/.texpadtmp/apastatsformat.aux
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 20.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmr.fd
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
 \openout1 = `apastatsformat.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-Package doc Info: Made | a short reference for \verb on input line 118.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+Package doc Info: Made | a short reference for \verb on input line 121.
 \AtBeginShipoutBox=\box52
- (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: pdftex.def on input line 144.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+Package color Info: Driver file: pdftex.def on input line 147.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
 \Gread@gobject=\count145
-
-(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count146
 \scratchdimen=\dimen119
@@ -430,121 +400,92 @@ File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 \makeMPintoPDFobject=\count151
 \everyMPtoPDFconversion=\toks18
 )))
-Package hyperref Info: Link coloring ON on input line 118.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package hyperref Info: Link coloring ON on input line 121.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+ (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count152
 )
-LaTeX Info: Redefining \ref on input line 118.
-LaTeX Info: Redefining \pageref on input line 118.
-LaTeX Info: Redefining \nameref on input line 118.
-
-(./apastatsformat.out) (./apastatsformat.out)
+LaTeX Info: Redefining \ref on input line 121.
+LaTeX Info: Redefining \pageref on input line 121.
+LaTeX Info: Redefining \nameref on input line 121.
+ (/Users/naomimuggleton/Library/Mobile Documents/com~apple~CloudDocs/GitHub/apastats/.texpadtmp/apastatsformat.out) (/Users/naomimuggleton/Library/Mobile Documents/com~apple~CloudDocs/GitHub/apastats/.texpadtmp/apastatsformat.out)
 \@outlinefile=\write5
 \openout5 = `apastatsformat.out'.
 
- (./apastatsformat.hd)
+ (/Users/naomimuggleton/Library/Mobile Documents/com~apple~CloudDocs/GitHub/apastats/.texpadtmp/apastatsformat.hd)
 \HD@savedest@out=\write6
 \openout6 = `apastatsformat.hd'.
 
-
-(./apastatsformat.dtx
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 138.
-
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmss.fd
+ (./apastatsformat.dtx
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 141.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 138.
-
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 141.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 138.
-
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omllmm.fd
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 141.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 138
-.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmsy.fd
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 141.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 138
-.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omxlmex.fd
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 141.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 138.
+(Font)              <17.28> on input line 141.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 138.
+(Font)              <12> on input line 141.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 138.
+(Font)              <10> on input line 141.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 138.
+(Font)              <8> on input line 141.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 138.
+(Font)              <6> on input line 141.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 138.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 141.
-
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmtt.fd
+(Font)              <5> on input line 141.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 149.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 145.
+(Font)              <7> on input line 151.
 
 No file apastatsformat.gls.
 No file apastatsformat.ind.
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 120.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 123.
  [1
 
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 120.
-
-(./apastatsformat.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 123.
+ (/Users/naomimuggleton/Library/Mobile Documents/com~apple~CloudDocs/GitHub/apastats/.texpadtmp/apastatsformat.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 123.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 123.
 Package rerunfilecheck Info: File `apastatsformat.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package rerunfilecheck Info: File `apastatsformat.hd' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 120.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 123.
  ) 
 Here is how much of TeX's memory you used:
- 6002 strings out of 493014
- 87580 string characters out of 6133350
- 165347 words of memory out of 5000000
- 9466 multiletter control sequences out of 15000+600000
+ 6027 strings out of 492995
+ 89293 string characters out of 6132704
+ 168135 words of memory out of 5000000
+ 9500 multiletter control sequences out of 15000+600000
  52516 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,9n,23p,241b,406s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
-texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/20
-16/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-dist/
-fonts/enc/dvips/lm/lm-mathit.enc}</usr/local/texlive/2016/texmf-dist/fonts/type
-1/public/lm/lmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/l
-m/lmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr12.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/loca
-l/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/20
-16/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2016/texmf-d
-ist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2016/texmf-dist/fonts/
-type1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
-ic/lm/lmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8
-.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmtt9.pfb>
-Output written on apastatsformat.pdf (1 page, 187555 bytes).
+ 34i,9n,23p,241b,407s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmtt9.pfb>
+Output written on "/Users/naomimuggleton/Library/Mobile Documents/com~apple~CloudDocs/GitHub/apastats/.texpadtmp/apastatsformat.pdf" (1 page, 190620 bytes).
 PDF statistics:
  67 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream

@@ -1,0 +1,11 @@
+\indexentry{anova=\verb!*+\anova+|hdclindex{2}{usage}}{4}
+\indexentry{ttest=\verb!*+\ttest+|hdclindex{4}{usage}}{4}
+\indexentry{chisq=\verb!*+\chisq+|hdclindex{6}{usage}}{4}
+\indexentry{etasq=\verb!*+\etasq+|hdclindex{8}{usage}}{4}
+\indexentry{petasq=\verb!*+\petasq+|hdclindex{10}{usage}}{4}
+\indexentry{getasq=\verb!*+\getasq+|hdclindex{12}{usage}}{4}
+\indexentry{cramersc=\verb!*+\cramersc+|hdclindex{14}{usage}}{4}
+\indexentry{omegasq=\verb!*+\omegasq+|hdclindex{16}{usage}}{4}
+\indexentry{cohenf=\verb!*+\cohenf+|hdclindex{18}{usage}}{4}
+\indexentry{cohend=\verb!*+\cohend+|hdclindex{20}{usage}}{4}
+\indexentry{cohenrho=\verb!*+\cohenrho+|hdclindex{22}{usage}}{4}

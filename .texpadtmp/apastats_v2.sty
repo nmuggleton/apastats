@@ -1,0 +1,214 @@
+%%
+%% This is file `apastats_v2.sty',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% apastats_v2.dtx  (with options: `package')
+%% --------------------------------------------------------------------------
+%% apastats --- Format stats according to APA 6 guidelines
+%% E-mail: n.muggleton@warwick.ac.uk
+%% Released under the LaTeX Project Public License v1.3c or later
+%% See http://www.latex-project.org/lppl.txt
+%% --------------------------------------------------------------------------
+%% 
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{apastats}[2018/02/13 v1.0 Formats statistics according to APA 6]
+\newcommand{\statsformat}{1}
+
+\DeclareOption{exact}{\renewcommand{\statsformat}{2}}
+\DeclareOption{psychscience}{\renewcommand{\statsformat}{3}}
+\DeclareOption*{\PackageWarning{apastats}{Unknown `\CurrentOption'}}
+
+\ProcessOptions\relax
+\RequirePackage{lineno, booktabs, amsmath, siunitx, ifthen}
+
+\ExplSyntaxOn
+
+\NewDocumentCommand\trimleadingzero{m}{
+\fp_compare:nTF { 0 < \fp_abs:n {#1} < 1 }
+  {\__trimleadingzero:n {#1}}
+  {#1}
+}
+
+\cs_new_protected:Npn \__trimleadingzero:n #1 {
+\seq_set_split:Nnn \l_ae_integer_decimal_parts_seq {.} {#1}
+\fp_compare:nF {#1>0}
+  { - }
+  .\seq_item:Nn \l_ae_integer_decimal_parts_seq {2}
+}
+\ExplSyntaxOff
+\ExplSyntaxOn
+\NewDocumentCommand{\twodp}{m}{%
+  \num[output-decimal-marker = {.},
+  round-mode = places,
+  round-precision = 2,
+  group-digits = false]{#1}
+}
+\ExplSyntaxOff
+
+\ExplSyntaxOn
+\NewDocumentCommand \anova{sm}
+{\IfBooleanTF{#1}
+  {\anova_s:wwww #2 \q_stop}
+  {\anova:wwww #2 \q_stop}
+}
+\ifthenelse{\equal{\statsformat}{1}}  % 1 = apa
+
+  {\cs_new_protected:Npn \anova_s:wwww #1 , #2 , #3 , #4 \q_stop
+    {\ensuremath {F(#1, #2) = \twodp{#3}}, \ \ensuremath{p = \twodp{#4}}}
+
+  \cs_new_protected:Npn \anova:wwww #1, #2, #3, #4 \q_stop
+  {\group_begin:
+  \fp_compare:nNnTF {#4} < {.001}
+    {\fp_set:Nn \l_tmpa_fp {.001}}
+    {\fp_compare:nNnTF {#4} < {.01}
+      {\fp_set:Nn \l_tmpa_fp {.01}}
+      {\fp_compare:nNnTF {#4} < {.05}
+        {\fp_set:Nn \l_tmpa_fp {.05}}
+        {\fp_set:Nn \l_tmpa_fp {1.0}}
+      }
+    }
+
+  \fp_compare:nNnTF {#4} < {.001}
+    {\ensuremath {F(#1, #2) = \twodp{#3}}, \ \ensuremath {p < {.001}}}
+    {\fp_compare:nNnTF {#4} < {.01}
+      {\ensuremath {F(#1, #2) = \twodp{#3}}, \ \ensuremath {p < {.01}}}
+      {\fp_compare:nNnTF {#4} < {.05}
+        {\ensuremath {F(#1, #2) = \twodp{#3}}, \ \ensuremath {p < {.05}}}
+        {\ensuremath {F(#1, #2) = \twodp{#3}}, \ \ensuremath {p > {.05}}}
+      }
+    }
+  \group_end:
+  }}
+  {\ifthenelse{\equal{\statsformat}{2}}
+    {\cs_new_protected:Npn \anova_s:wwww #1, #2, #3, #4 \q_stop
+    {\ensuremath {F(#1, #2) = \twodp{#3}}, \ \ensuremath {p = \twodp{#4}}}
+
+    \cs_new_protected:Npn \anova:wwww #1, #2, #3, #4 \q_stop
+    {\group_begin:
+   \fp_compare:nNnTF {#4} < {.001}
+     {\fp_set:Nn \l_tmpa_fp {.001}}
+     {\fp_compare:nNnTF {#4} < {.01}
+       {\fp_set:Nn \l_tmpa_fp {.01}}
+        {\fp_compare:nNnTF {#4} < {.05}
+          {\fp_set:Nn \l_tmpa_fp {.05}}
+          {\fp_set:Nn \l_tmpa_fp {1.0}}
+        }
+      }
+
+   \fp_compare:nNnTF {#4} < {.001}
+      {\ensuremath {F(#1, #2) = \twodp{#3}}, \ \ensuremath {p < {.001}}}
+      {\fp_compare:nNnTF {#4} < {.999}
+        {\ensuremath {F(#1, #2) = \twodp{#3}}, \ \ensuremath {p = \trimleadingzero{#4}}}
+        {\ensuremath { F(#1, #2) = \twodp{#3}}, \ \ensuremath {p > .999}}
+      }
+    \group_end:
+    }}
+  }
+
+  {\cs_new_protected:Npn \anova_s:wwww #1, #2, #3, #4 \q_stop
+  {\ensuremath {F(#1, #2) = \twodp{#3} }, \ \ensuremath { p = \trimleadingzero{#4}}}
+
+  \cs_new_protected:Npn \anova:wwww #1, #2, #3, #4 \q_stop
+  {\group_begin:
+  \fp_compare:nNnTF {#4} < {.001}
+    {\fp_set:Nn \l_tmpa_fp {.001}}
+    {\fp_compare:nNnTF {#4} < {.01}
+      {\fp_set:Nn \l_tmpa_fp {.01}}
+      {\fp_compare:nNnTF {#4} < {.05}
+        {\fp_set:Nn \l_tmpa_fp {.05}}
+        {\fp_set:Nn \l_tmpa_fp {1.0}}
+      }
+    }
+
+  \fp_compare:nNnTF {#4} < {.001}
+     {\ensuremath {F(#1, #2) = \twodp{#3}}, \ \ensuremath {p < {.001}}}
+    {\fp_compare:nNnTF {#4} < {.250}
+      {\ensuremath {F(#1, #2) = \twodp{#3}}, \ \ensuremath {p = \trimleadingzero{#4}}}
+      {\ensuremath {F(#1, #2) = \twodp{#3}}, \ \ensuremath {p > {.250}}}
+    }
+  \group_end:
+   }}
+
+\ExplSyntaxOff
+\ExplSyntaxOn
+\NewDocumentCommand \ttest{sm}{
+ \IfBooleanTF{#1}
+  {\ttest_s:wwww #2 \q_stop}
+  {\ttest:wwww #2 \q_stop }
+}
+
+\cs_new_protected:Npn \ttest_s:wwww #1, #2, #3 \q_stop
+{\ensuremath {t(#1) = \twodp{#2}}, \ \ensuremath {p = \twodp{#3}}}
+
+\cs_new_protected:Npn \ttest:wwww #1, #2, #3 \q_stop
+{\group_begin:
+\fp_compare:nNnTF {#3} < {.001}
+  {\fp_set:Nn \l_tmpa_fp {.001}}
+  {\fp_compare:nNnTF {#3} < {.01}
+    {\fp_set:Nn \l_tmpa_fp {.01}}
+    {\fp_compare:nNnTF {#3} < {.05}
+      {\fp_set:Nn \l_tmpa_fp {.05}}
+      {\fp_set:Nn \l_tmpa_fp {1.0}}
+    }
+  }
+
+\fp_compare:nNnTF {#3} < {.001}
+  {\ensuremath {t(\twodp{#1}) = \twodp{#2}}, \ \ensuremath {p < {.001}}}
+  {\fp_compare:nNnTF {#3} < {.01}
+    {\ensuremath {t(\twodp{#1}) = \twodp{#2}}, \ \ensuremath {p < {.01}}}
+    {\fp_compare:nNnTF {#3} < {.05}
+      {\ensuremath {t(\twodp{#1}) = \twodp{#2}}, \ \ensuremath {p < {.05}}}
+      {\ensuremath {t(\twodp{#1}) = \twodp{#2}}, \ \ensuremath {p > {.05}}}
+    }
+  }
+\group_end:
+}
+\ExplSyntaxOff
+\ExplSyntaxOn
+\NewDocumentCommand \etasq {sm}
+{\IfBooleanTF{#1}
+{\ensuremath {\eta^{2} = #2}}
+{\ensuremath {\eta^{2} = \twodp{#2}}}
+}
+\ExplSyntaxOff
+\ExplSyntaxOn
+\NewDocumentCommand \petasq {sm}
+{
+\IfBooleanTF{#1}
+{ \ensuremath {\eta\sb{p}^{2} = #2}}
+{ \ensuremath {\eta\sb{p}^{2} = \twodp{#2}}}
+}
+\ExplSyntaxOff
+\ExplSyntaxOn
+\NewDocumentCommand \getasq {sm}
+{
+\IfBooleanTF{#1}
+{ \ensuremath {\eta\sb{g}^{2} = #2}}
+{ \ensuremath {\eta\sb{g}^{2} = \twodp{#2}}}
+}
+\ExplSyntaxOff
+\newcommand{\bayesten}[1]{$\text{BF}_{10} = {#1}$}
+\newcommand{\bayesone}[1]{$\text{BF}_{01} = {#1}$}
+\newcommand{\chisq}[4]{$\chi^{2}({#1}$, $N = {#2}) = {#3}$, $p = {#4}$}
+%% 
+%% Copyright (C) 2018 by Naomi Muggleton <n.muggleton@warwick.ac.uk>
+%% 
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License (LPPL), either
+%% version 1.3c of this license or (at your option) any later
+%% version.  The latest version of this license is in the file:
+%% 
+%% http://www.latex-project.org/lppl.txt
+%% 
+%% This work is "maintained" (as per LPPL maintenance status) by
+%% Naomi Muggleton.
+%% 
+%% This work consists of the file  apastats.dtx
+%% and the derived files           apastats.ins,
+%%                                 apastats.pdf and
+%%                                 apastats.sty.
+%% 
+%%
+%% End of file `apastats_v2.sty'.

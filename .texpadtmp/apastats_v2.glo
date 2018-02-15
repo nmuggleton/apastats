@@ -1,0 +1,11 @@
+\glossaryentry{v1.0> =General:>First public release|hdpindex{}}{1}
+\glossaryentry{v1.0>\statsformat=\verb!*+\statsformat+:>New macro|hdpindex{}}{4}
+\glossaryentry{v1.0>\trimleadingzero=\verb!*+\trimleadingzero+:>newmacro|hdpindex{}}{4}
+\glossaryentry{v1.0>\twodp=\verb!*+\twodp+:>Another new one|hdpindex{}}{4}
+\glossaryentry{v1.0>\anova=\verb!*+\anova+:>New macro|hdpindex{}}{5}
+\glossaryentry{v1.0>\ttest=\verb!*+\ttest+:>New macro|hdpindex{}}{6}
+\glossaryentry{v1.0>\etasq=\verb!*+\etasq+:>New macro|hdpindex{}}{7}
+\glossaryentry{v1.0>\petasq=\verb!*+\petasq+:>New macro|hdpindex{}}{7}
+\glossaryentry{v1.0>\getasq=\verb!*+\getasq+:>New macro|hdpindex{}}{8}
+\glossaryentry{v1.0>\bayes=\verb!*+\bayes+:>New macro|hdpindex{}}{8}
+\glossaryentry{v1.0>\chisq=\verb!*+\chisq+:>New macro|hdpindex{}}{8}
